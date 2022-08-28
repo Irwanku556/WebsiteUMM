@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #F5B7B1;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: #943126;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.brand{
+    font-size: 25pt;
+    color: #17202A;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    font-size: 15pt;
+}
+
+.info{
+    width: 100vw;
+    height: 80vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+    background-image: url(https://picsum.photos/seed/100/800);
+    color: white;
+}
+
+.hero{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://picsum.photos/seed/90/800);
+    color: white;
+    padding: 0 5%;
+    background-size: cover;
+}
+.deskripsi{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://picsum.photos/seed/120/800);
+    color: black;
+    padding: 0 5%;
+    background-size: cover;
+}
+
+.bagian_akhir{
+    width: 100vw;
+    height: 10vh;
+    background-color: #943126;
+    padding-left: 30%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+
+}
