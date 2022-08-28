@@ -23,7 +23,7 @@ Route::get('/', function(){
 
 Route::get('/about', function(){
     return view('about', [
-        "Name" => "Irwan Pradana Moktar Kadha",
+        "Name" => "Irwan Pradana ",
         "Jurusan" => "Teknik Informatika",
         "NIM" => "20181",
         "image" => "okelah.jpeg",
